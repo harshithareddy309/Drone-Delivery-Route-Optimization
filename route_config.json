@@ -1,0 +1,22 @@
+{
+  "project": "Drone Delivery Route Optimization",
+  "algorithm": "Genetic Algorithm",
+  "dataset_file": "redundancy.in",
+  "coordinate_type": "Grid row and column",
+  "distance_unit": "Grid units",
+  "warehouse_id": 0,
+  "warehouse_coordinate": [
+    35,
+    241
+  ],
+  "selected_order_ids": [
+    8,
+    14,
+    115
+  ],
+  "population_size": 80,
+  "generations": 150,
+  "mutation_rate": 0.15,
+  "elite_count": 2,
+  "random_seed": 42
+}

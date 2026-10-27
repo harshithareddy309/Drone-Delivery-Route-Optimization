@@ -1,0 +1,33 @@
+{
+  "dataset_file": "redundancy.in",
+  "grid_rows": 300,
+  "grid_columns": 500,
+  "total_dataset_orders": 1000,
+  "total_warehouses": 16,
+  "selected_warehouse_id": 0,
+  "selected_order_ids": [
+    8,
+    14,
+    115
+  ],
+  "selected_order_count": 3,
+  "total_selected_payload_weight": 195,
+  "maximum_payload": 200,
+  "population_size": 80,
+  "generations": 150,
+  "mutation_rate": 0.15,
+  "original_distance_grid_units": 591.234,
+  "optimized_distance_grid_units": 535.02,
+  "distance_improvement_percent": 9.51,
+  "original_estimated_flight_turns": 594,
+  "optimized_estimated_flight_turns": 537,
+  "estimated_turn_improvement_percent": 9.6,
+  "distance_metric": "Euclidean grid distance",
+  "route_definition": "Warehouse to selected orders and back",
+  "limitations": [
+    "Optimizes the order of a single selected trip",
+    "Uses grid coordinates, not GPS coordinates",
+    "Does not simulate drone schedules or multiple drones",
+    "Does not calculate the full original challenge score"
+  ]
+}
